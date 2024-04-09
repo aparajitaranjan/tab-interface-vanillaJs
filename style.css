@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 20px 10px;
+  border: 1px solid #333;
+}
+.tabContent {
+  display: none;
+}
+.tabLinks {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.tabLinks:hover {
+  background-color: #ddd;
+}
+.tabContent.active {
+  display: block;
+}
+.tabLinks.active {
+  background-color: #ddd;
+  color: #333;
+}
